@@ -3,9 +3,9 @@ Reference 1: Kuhn, H.W. (1955), The Hungarian method for the assignment problem�
 Summary: 
 Given an n x n table of scores rating how well each person performs each job, find the one-to-one assignment of persons to jobs that maximizes the total score. Solution method. He shows that results from two Hungarian mathematicians (Konig and Egervary) can be adapted into an efficient algorithm, "the Hungarian method.
 
-Reference 2: Munkres, J. (1957). "Algorithms for the Assignment and Transportation Problems." J. SIAM, 5(1), 32–38.
+Reference 2 : Paluch, Katarzyna. (2013). Capacitated Rank-Maximal Matchings. 10.1007/978-3-642-38233-8_27. 
 
-Summary: Proves the Hungarian algorithm correct, then extends it to the transportation problem (capacity > 1). This is what makes it work for hospitals.
+Summary: Instead of minimizing total rank, this maximizes how many people get their 1st choice first, then 2nd choice among what's left, and so on. A stricter, lexicographic version of fairness. Same doctors/hospitals setup as yours, just a different (and harder) objective than the one you're implementing.
 
 Reference 3: Bertsekas, D. P. (1981). "A new algorithm for the assignment problem." Mathematical Programming, 21(1), 152–171.
 
