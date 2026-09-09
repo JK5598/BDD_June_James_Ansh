@@ -1,6 +1,6 @@
 from input_generation import generate_mock_dataset
-from interfernce_function_june import g
-from Optimizor import minimum_cost
+from interference_function import g
+from Optimizer import minimum_cost
 import numpy as np
 
 if __name__ == "__main__":
