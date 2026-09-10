@@ -26,9 +26,12 @@ def g(ranking_matrix):
     ranking_matrix : (n, m) int array, entry = rank, 1 = most preferred.
     returns        : (n, m) int array of assignment costs.
     """
+     _validate_rankings(ranking_matrix)
     M_R = np.asarray(ranking_matrix)
-    _validate_rankings(M_R)
+    "this is a simple to the x power interference function."
+    M_R = M_R ** 1
     return M_R.copy() # Do not interrupt with Ansh's generator output.
+
 
 
 def _validate_rankings(M_R):
